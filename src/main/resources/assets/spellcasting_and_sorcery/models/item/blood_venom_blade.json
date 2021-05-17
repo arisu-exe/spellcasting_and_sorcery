@@ -1,0 +1,14 @@
+{
+    "parent" : "minecraft:item/handheld",
+    "textures" : {
+        "layer0" : "spellcasting_and_sorcery:item/blood_venom_blade"
+    },
+	"overrides" : [
+		{
+            "predicate" : {
+                "spellcasting_and_sorcery:pam_texture" : 1
+            },
+            "model" : "spellcasting_and_sorcery:item/poisonbloodblade"
+        }
+	]
+}
